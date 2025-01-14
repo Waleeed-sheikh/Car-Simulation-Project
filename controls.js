@@ -4,7 +4,6 @@ class Controls{
         this.left=false;
         this.right=false,
         this.reverse=false;
-
         this.#addKeyboardListeners();  ///# added hash because this is a private method
 
     }
@@ -41,6 +40,7 @@ class Controls{
                 case "ArrowDown":
                     this.reverse=false;
                     break;
+                    
             }
             
         }
